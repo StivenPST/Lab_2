@@ -8,9 +8,6 @@ API_KEY = "AIzaSyClxsZpwrXlm5cSDh3_cfIU45E9Y1jEoYo" # Se debe generar una API KE
 MODELO = "models/gemini-2.5-flash"
 URL = f"https://generativelanguage.googleapis.com/v1beta/{MODELO}:generateContent?key={API_KEY}"
 
-# CONFIGURACION PUERTO SERIAL (ajustar port según tu sistema)
-arduino = serial.Serial(port='COM4', baudrate=9600, timeout=1)  # Windows
-
 # SEGMENTACION ESPECIALIZADA
 SYSTEM_PROMPT = """
 Eres un asistente que puede responder preguntas y además controlar un Arduino:
@@ -49,7 +46,9 @@ def preguntar_gemini(mensaje_usuario):
     except Exception as e:
         return f"❌ Error de conexión: {str(e)}"
     
-    
+# CONFIGURACION PUERTO SERIAL (ajustar port según tu sistema)
+arduino = serial.Serial(port='COM4', baudrate=9600, timeout=1)  # Windows
+
 # FUNCION CONTROL ARDUINO
 def controlar_arduino(mensaje_usuario):
     if "encender" in mensaje_usuario.lower():
