@@ -84,13 +84,22 @@ Instalar "Adafruit GFX Library"
 
 NOTA: Se anexa un video de funcionamiento
 
-
 ## ► Tercer Punto ◄
 ### ♦ Objetivo
+El objetivo de esta práctica es implementar un sistema de detección de superficies utilizando un sensor infrarrojo (CNY70) y una placa Arduino.
 
 ### ♦ Materiales Necesarios
+<img width="801" height="463" alt="image" src="https://github.com/user-attachments/assets/41132240-75cb-4e0d-8d20-4c01caa82c7d" />
 
 ### ♦ Montaje hardware
+Para que el código funcione correctamente, las conexiones deben hacerse de la siguiente manera:
+#### Feed: 
+Conecte el sensor a los pines de 5V y GND del Arduino.
+#### Conexión de sensores: 
+El pin de salida de señal del sensor debe ser conectado al pin analógico A0 del Arduino.
+#### Circuito del CNY 70:
+El ánodo del LED emisor se conecta a 5V mediante una resistencia de protección.
+El colector del fototransistor va a 5V y el emisor va al pin A0 y mediante una resistencia pull-down a GND.
 
 ### ♦ Codigo 
 #### Configuración inicial
