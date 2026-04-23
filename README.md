@@ -87,8 +87,23 @@ NOTA: Se anexa un video de funcionamiento
 
 ## ► Tercer Punto ◄
 ### ♦ Objetivo
+
 ### ♦ Materiales Necesarios
+
 ### ♦ Montaje hardware
+
 ### ♦ Codigo 
+#### Configuración inicial
+<img width="921" height="120" alt="image" src="https://github.com/user-attachments/assets/cccab23f-4625-4b10-ba8b-58c92ebd78cc" />
+
+#### Lectura del sensor
+<img width="921" height="102" alt="image" src="https://github.com/user-attachments/assets/06c64eb1-ec6e-45ab-ae7a-b7db315bb824" />
+
+#### Lógica de decisión
+<img width="921" height="305" alt="image" src="https://github.com/user-attachments/assets/719eb1ca-ab6f-4882-b02c-9cd5fb2a672b" />
+
+#### Monitoreo
+<img width="921" height="163" alt="image" src="https://github.com/user-attachments/assets/716fbdc0-b23a-4a35-9542-353cd06cdffe" />
+
 ### ♦ Imagenes Laboratorio
 <img width="1600" height="522" alt="image" src="https://github.com/user-attachments/assets/1f44a127-2bdd-455b-9d4b-92a0358ecbdb" />
