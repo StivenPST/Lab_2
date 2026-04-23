@@ -39,20 +39,17 @@ Se ejecuta el ChatBot para que interactue con el usuario. Se reciben las pregunt
 ### Objetivo
 
 ### Materiales Necesarios
-<img width="461" height="378" alt="image" src="https://github.com/user-attachments/assets/c033335f-8cca-4db6-b1bf-068668fffd28" />
+<img width="926" height="478" alt="image" src="https://github.com/user-attachments/assets/0147ee6b-1b42-4393-b29e-56b2ab4a8773" />
 
 ### Montaje hardware
 La pantalla OLED SSD1306 se conecta mediante el protocolo I2C:
-<img width="260" height="262" alt="image" src="https://github.com/user-attachments/assets/80018b04-c9dc-40f1-81da-edc92bd7818d" />
+<img width="1121" height="325" alt="image" src="https://github.com/user-attachments/assets/8ba57b71-f970-40cf-8a4e-79ef3bddb27e" />
 
 ### Librerias para el codigo
 En Arduino IDE, instalar las siguientes librerías:
 Instalar "Adafruit SSD1306"
 Instalar "Adafruit GFX Library"
 <img width="364" height="86" alt="image" src="https://github.com/user-attachments/assets/6b9f01e2-60e0-47c3-9ffa-ecda327f5386" />
-
-
-
 
 ### Codigo del juego
 
