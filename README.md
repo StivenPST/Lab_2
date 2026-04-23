@@ -22,7 +22,7 @@ Esta definicion se logra mediante la variable `SYSTEM_PROMPT`.
 Envia las preguntas del usuario generando un `payload` que junta el `SYSTEM_PROMPT` con la `pregunta` del usuario. Adicionalmente si ocurre algun error en este proceso el ChatBot lo informa al usuario.
 
 ### Configuración Puerto Serial
-Se establece conexion entre la maquina y un dispositivo **Arduino** mediante el puerto serial `COM4` (*El puerto varia dependiendo del sistema operativo y el puerto en que se conecte en en la maquina*)
+Se establece conexion entre la maquina y un dispositivo **Arduino** mediante el puerto serial `COM4` (*El puerto varia dependiendo del sistema operativo y del conector USB que se utilice en la maquina*)
 Esto permite que el ChatBot controle el Arduino.
 
 ### Funcion Control Arduino
