@@ -4,7 +4,7 @@ import serial #Instalar -> pip install pyserial
 import time
 
 # CONFIGURACION CONEXION IA - GEMINI
-API_KEY = "AIzaSyClxsZpwrXlm5cSDh3_cfIU45E9Y1jEoYo" # Se debe generar una API KEY propia en el enlace https://aistudio.google.com/
+API_KEY = "API_KEY_GEMINI" # Se debe generar una API KEY propia en el enlace https://aistudio.google.com/
 MODELO = "models/gemini-2.5-flash"
 URL = f"https://generativelanguage.googleapis.com/v1beta/{MODELO}:generateContent?key={API_KEY}"
 
