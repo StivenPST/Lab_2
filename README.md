@@ -49,7 +49,7 @@ La pantalla OLED SSD1306 se conecta mediante el protocolo I2C:
 En Arduino IDE, instalar las siguientes librerías:
 Instalar "Adafruit SSD1306"
 Instalar "Adafruit GFX Library"
-<img width="364" height="86" alt="image" src="https://github.com/user-attachments/assets/6b9f01e2-60e0-47c3-9ffa-ecda327f5386" />
+<img width="1013" height="102" alt="image" src="https://github.com/user-attachments/assets/be97bb4a-9553-4441-9664-411214a7fb6b" />
 
 ### Codigo del juego
 
