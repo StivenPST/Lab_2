@@ -36,7 +36,21 @@ Se ejecuta el ChatBot para que interactue con el usuario. Se reciben las pregunt
 
 
 ## Segundo Punto
+### Objetivo
+
+### Materiales Necesarios
 <img width="461" height="378" alt="image" src="https://github.com/user-attachments/assets/c033335f-8cca-4db6-b1bf-068668fffd28" />
+
+### Montaje hardware
+La pantalla OLED SSD1306 se conecta mediante el protocolo I2C:
+<img width="260" height="262" alt="image" src="https://github.com/user-attachments/assets/80018b04-c9dc-40f1-81da-edc92bd7818d" />
+
+### Librerias para el codigo
+En Arduino IDE, instalar las siguientes librerías
+<img width="487" height="88" alt="image" src="https://github.com/user-attachments/assets/f0e8c3cc-f451-4f91-9ed9-ca2e3d23550b" />
+<img width="522" height="132" alt="image" src="https://github.com/user-attachments/assets/5b6ec102-010e-4351-8db3-ad270a93a847" />
+
+### Codigo del juego
 
 
 ## Tercer Punto
