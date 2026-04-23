@@ -85,3 +85,8 @@ NOTA: Se anexa un video de funcionamiento
 
 
 ## Tercer Punto
+### Objetivo
+### Materiales Necesarios
+### Montaje hardware
+### Codigo 
+### Imagenes Laboratorio
