@@ -52,15 +52,15 @@ En Arduino IDE, instalar las siguientes librerías:
 Instalar "Wire.h"
 Instalar "Adafruit SSD1306"
 Instalar "Adafruit GFX Library"
-<img width="1142" height="90" alt="image" src="https://github.com/user-attachments/assets/6662c9a4-f778-4908-b60b-217a28707b2f" />
+<img width="1142" height="90" alt="image" src="https://github.com/user-attachments/assets/6662c9a4-f778-4908-b60b-217a28707b2f" /> \
 <img width="981" height="227" alt="image" src="https://github.com/user-attachments/assets/433007e9-a91d-479d-9504-fbf9ac8d25ec" />
 
 #### Configuración de pantalla
-<img width="1153" height="128" alt="image" src="https://github.com/user-attachments/assets/ef41c6a5-7db5-44f0-bfbb-ddb2cf2c236c" />
+<img width="1153" height="128" alt="image" src="https://github.com/user-attachments/assets/ef41c6a5-7db5-44f0-bfbb-ddb2cf2c236c" /> \
 <img width="1002" height="297" alt="image" src="https://github.com/user-attachments/assets/2f402001-d756-4805-a4e4-bbf200b213a9" />
 
 #### Variables de juego
-<img width="1116" height="122" alt="image" src="https://github.com/user-attachments/assets/0b91eaee-4720-4708-9a4f-5e334a413af7" />
+<img width="1116" height="122" alt="image" src="https://github.com/user-attachments/assets/0b91eaee-4720-4708-9a4f-5e334a413af7" /> \
 <img width="801" height="219" alt="image" src="https://github.com/user-attachments/assets/e4121dd4-7438-4bbe-bbcc-acc1cc63adf3" />
 
 #### Setup - Configuracion inicial
