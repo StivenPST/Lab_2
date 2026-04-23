@@ -36,6 +36,7 @@ Se ejecuta el ChatBot para que interactue con el usuario. Se reciben las pregunt
 
 
 ## Segundo Punto
+<img width="461" height="378" alt="image" src="https://github.com/user-attachments/assets/c033335f-8cca-4db6-b1bf-068668fffd28" />
 
 
 ## Tercer Punto
