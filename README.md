@@ -75,7 +75,7 @@ Instalar "Adafruit GFX Library"
 #### Imagenes Laboratorio
 <img width="1394" height="811" alt="image" src="https://github.com/user-attachments/assets/0547ecdf-8a6a-438f-b30b-fe477cc3017c" />
 
-NOTA: Seanexa un video de funcionamiento
+NOTA: Se anexa un video de funcionamiento
 
 
 ## Tercer Punto
