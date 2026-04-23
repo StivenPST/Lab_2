@@ -86,7 +86,8 @@ while True:
         continue
 
     respuesta = preguntar_gemini(user_input)
+    print(f"\n🤖 Bot: {respuesta}\n")ser_input)
     print(f"\n🤖 Bot: {respuesta}\n")
- 
-respuesta = preguntar_gemini(user_input)
-    print(f"\n🤖 Bot: {respuesta}\n")
+
+
+
