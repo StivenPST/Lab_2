@@ -5,7 +5,7 @@
 Este chatbot usa la API de Gemini. Para ejecutarlo se necesita una clave propia:
 1. Ingresa a [Google AI Studio](https://aistudio.google.com/).
 2. Genera una API Key.
-3. Abre el archivo `Codigo Bot_Arduino_V1.py`.
+3. Abre el archivo `chatbot_arduino.py`.
 4. Reemplaza el texto `"API_KEY_GEMINI"` en la variable `API_KEY` por tu clave.
 
 ### Configuración Conexion IA - Gemini
@@ -27,12 +27,18 @@ Esto permite que el ChatBot controle el Arduino.
 
 ### Funcion Control Arduino
 El ChatBot interactua con el Arduino segun las ordenes que envie el usuario:
-- **Encender Luz:** Envia comando  `ON` al Arduino.
-- **Apagar Luz:** Envia comando  `OFF` al Arduino.
-- **Temperatura:** Pide la temperatura al Arduino y la muestra al usuario.
+- **encender verde:** Envia comando  `ON_VERDE` al Arduino.
+- **encender rojo:** Envia comando  `ON_ROJO` al Arduino.
+- **apagar verde:** Envia comando  `OFF_VERDE` al Arduino.
+- **apagar rojo:** Envia comando  `OFF_ROJO` al Arduino.
+- **Temperatura:** Envia el comando  `TEMP` para pedir la temperatura al Arduino y muestrarla al usuario.
 
 ### Interfaz Del ChatBot
-Se ejecuta el ChatBot para que interactue con el usuario. Se reciben las preguntas del usuario, se procesan a traves de la funcion `preguntar_gemini` 
+Se ejecuta el ChatBot para que interactue con el usuario. Se reciben las preguntas del usuario, se procesan a traves de la funcion `preguntar_gemini` mientras que procesa los comandos predefinidos con la funcion `controlar_arduino`.
+
+### Materiales
+
+### Montaje
 
 
 ## Segundo Punto
