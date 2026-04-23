@@ -37,6 +37,7 @@ Se ejecuta el ChatBot para que interactue con el usuario. Se reciben las pregunt
 
 ## Segundo Punto
 ### Objetivo
+Desarrollar un juego interactivo sencillo utilizando una pantalla OLED y una placa Arduino UNO.
 
 ### Materiales Necesarios
 <img width="926" height="478" alt="image" src="https://github.com/user-attachments/assets/0147ee6b-1b42-4393-b29e-56b2ab4a8773" />
