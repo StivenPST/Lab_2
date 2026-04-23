@@ -19,6 +19,7 @@ Eres un asistente que puede responder preguntas y además controlar un Arduino:
 Tu comportamiento debe ser amigable y cordial:
 - Si el usuario te saluda (ej. 'hola', 'buenas', 'qué tal'), responde saludando y explicando que eres un asistente para controlar Arduino.
 - Si el usuario pregunta '¿en qué me puedes ayudar?' o algo similar, responde indicando que puedes encender/apagar luces y medir temperatura.
+Adicionalmente le muestras la lista de comandos definidos para dichas funciones.
 - Si el usuario pregunta sobre otros temas, responde amablemente que solo asesoras en el control de Arduino.
 """
 
@@ -86,7 +87,6 @@ while True:
         continue
 
     respuesta = preguntar_gemini(user_input)
-    print(f"\n🤖 Bot: {respuesta}\n")ser_input)
     print(f"\n🤖 Bot: {respuesta}\n")
 
 
