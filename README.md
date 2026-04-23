@@ -90,3 +90,4 @@ NOTA: Se anexa un video de funcionamiento
 ### Montaje hardware
 ### Codigo 
 ### Imagenes Laboratorio
+<img width="1600" height="522" alt="image" src="https://github.com/user-attachments/assets/1f44a127-2bdd-455b-9d4b-92a0358ecbdb" />
