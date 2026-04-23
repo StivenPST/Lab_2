@@ -72,4 +72,8 @@ Instalar "Adafruit GFX Library"
 #### Detección de colisión
 <img width="1079" height="303" alt="image" src="https://github.com/user-attachments/assets/4f01d2c4-4dd4-4e50-bacd-e12c343e214d" />
 
+#### Imagenes Laboratorio
+<img width="1394" height="811" alt="image" src="https://github.com/user-attachments/assets/0547ecdf-8a6a-438f-b30b-fe477cc3017c" />
+
+
 ## Tercer Punto
