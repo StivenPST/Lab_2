@@ -1,4 +1,4 @@
-# Laboratorio N°2
+# 🧪 Laboratorio N° 2 🧪
 
 ## ► Primer Punto ◄
 ### ♦ Codigo ChatBot
