@@ -2,23 +2,12 @@
 
 ## ► Primer Punto ◄
 ## Objetivo
+
 ## Materiales Necesarios
+<img width="921" height="490" alt="image" src="https://github.com/user-attachments/assets/8bc995d0-4707-4b26-b92e-10723cc38078" />
+
 ## Montaje del hardware
 <img width="454" height="456" alt="image" src="https://github.com/user-attachments/assets/97651f0e-302f-4b92-b6e6-ed82db148857" />
-## Codigo
-
-## Inclusión de librerías y definición de variables
-<img width="681" height="148" alt="image" src="https://github.com/user-attachments/assets/f93ec6b9-0c25-4db3-9002-3640a695eb73" />
-
-## Bloque de configuración
-<img width="626" height="222" alt="image" src="https://github.com/user-attachments/assets/e8e2231a-a48b-433e-a68b-421be3fbddb9" />
-
-## Bloque de lógica
-<img width="621" height="470" alt="image" src="https://github.com/user-attachments/assets/7562b1da-51d6-4141-a04e-ee5be2187567" />
-
-## imágenes de laboratorio
-<img width="357" height="473" alt="image" src="https://github.com/user-attachments/assets/15b93594-c4a6-49ce-b6ab-3c2d099ed35a" />
-<img width="355" height="475" alt="image" src="https://github.com/user-attachments/assets/c962e418-fe17-4e15-932c-e585e8c68b06" />
 
 ### ♦ Codigo ChatBot
 ### Concideraciones Previas
@@ -56,10 +45,19 @@ El ChatBot interactua con el Arduino segun las ordenes que envie el usuario:
 ### Interfaz Del ChatBot
 Se ejecuta el ChatBot para que interactue con el usuario. Se reciben las preguntas del usuario, se procesan a traves de la funcion `preguntar_gemini` mientras que procesa los comandos predefinidos con la funcion `controlar_arduino`.
 
-### ♦ Materiales
+## Codigo
+### Inclusión de librerías y definición de variables
+<img width="681" height="148" alt="image" src="https://github.com/user-attachments/assets/f93ec6b9-0c25-4db3-9002-3640a695eb73" />
 
-### ♦ Montaje
+### Bloque de configuración
+<img width="626" height="222" alt="image" src="https://github.com/user-attachments/assets/e8e2231a-a48b-433e-a68b-421be3fbddb9" />
 
+### Bloque de lógica
+<img width="621" height="470" alt="image" src="https://github.com/user-attachments/assets/7562b1da-51d6-4141-a04e-ee5be2187567" />
+
+### imágenes de laboratorio
+<img width="357" height="473" alt="image" src="https://github.com/user-attachments/assets/15b93594-c4a6-49ce-b6ab-3c2d099ed35a" />
+<img width="355" height="475" alt="image" src="https://github.com/user-attachments/assets/c962e418-fe17-4e15-932c-e585e8c68b06" />
 
 ## ► Segundo Punto ◄
 ### ♦ Objetivo
