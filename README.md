@@ -1,6 +1,8 @@
 # 🧪 Laboratorio N° 2 🧪
 
 ## ► Primer Punto ◄
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/d3d5ddde-172f-43fd-aea0-601c5429242e" />
+
 ### ♦ Codigo ChatBot
 ### Concideraciones Previas
 Este chatbot usa la API de Gemini. Para ejecutarlo se necesita una clave propia:
