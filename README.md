@@ -1,37 +1,38 @@
 # 🧪 Laboratorio N° 2 🧪
 
 ## ► Primer Punto ◄
-## Objetivo
+### Objetivo
+Diseñar e implementar un sistema integrado de hardware y software que permita el control de iluminación y el monitoreo de temperatura ambiental mediante una interfaz de chatbot conversacional.
 
-## Materiales Necesarios
+### Materiales Necesarios
 <img width="921" height="490" alt="image" src="https://github.com/user-attachments/assets/8bc995d0-4707-4b26-b92e-10723cc38078" />
 
 ### ♦ Codigo ChatBot
-### Concideraciones Previas
+#### Concideraciones Previas
 Este chatbot usa la API de Gemini. Para ejecutarlo se necesita una clave propia:
 1. Ingresa a [Google AI Studio](https://aistudio.google.com/).
 2. Genera una API Key.
 3. Abre el archivo `chatbot_arduino.py`.
 4. Reemplaza el texto `"API_KEY_GEMINI"` en la variable `API_KEY` por tu clave.
 
-### Configuración Conexion IA - Gemini
+#### Configuración Conexion IA - Gemini
 En esta parte del codigo se establece la conexion con la API Gemini haciendo uso de las variables:
 - `API_KEY`: Esta clave autentica las solicitudes.
 -  `MODEL`: Especifica la version de lenguaje que usara Gemini.
 -  `URL`: Define el enlace donde se enviaran las solicitudes.
 
-### Segmentacion Especializada
+#### Segmentacion Especializada
 Se define el comportamiento del ChatBot, indicando como debe responder a las solicitudes del usuario, asi como los comandos definidos para el control del Arduino.
 Esta definicion se logra mediante la variable `SYSTEM_PROMPT`.
 
-### Funcion De Pregunta IA
+#### Funcion De Pregunta IA
 Envia las preguntas del usuario generando un `payload` que junta el `SYSTEM_PROMPT` con la `pregunta` del usuario. Adicionalmente si ocurre algun error en este proceso el ChatBot lo informa al usuario.
 
-### Configuración Puerto Serial
+#### Configuración Puerto Serial
 Se establece conexion entre la maquina y un dispositivo **Arduino** mediante el puerto serial `COM4` (*El puerto varia dependiendo del sistema operativo y del conector USB que se utilice en la maquina*)
 Esto permite que el ChatBot controle el Arduino.
 
-### Funcion Control Arduino
+#### Funcion Control Arduino
 El ChatBot interactua con el Arduino segun las ordenes que envie el usuario:
 - **encender verde:** Envia comando  `ON_VERDE` al Arduino.
 - **encender rojo:** Envia comando  `ON_ROJO` al Arduino.
@@ -39,23 +40,24 @@ El ChatBot interactua con el Arduino segun las ordenes que envie el usuario:
 - **apagar rojo:** Envia comando  `OFF_ROJO` al Arduino.
 - **Temperatura:** Envia el comando  `TEMP` para pedir la temperatura al Arduino y muestrarla al usuario.
 
-### Interfaz Del ChatBot
+#### Interfaz Del ChatBot
 Se ejecuta el ChatBot para que interactue con el usuario. Se reciben las preguntas del usuario, se procesan a traves de la funcion `preguntar_gemini` mientras que procesa los comandos predefinidos con la funcion `controlar_arduino`.
 
-## Montaje del hardware
+### Parte Fisica
+#### Montaje del hardware
 <img width="454" height="456" alt="image" src="https://github.com/user-attachments/assets/97651f0e-302f-4b92-b6e6-ed82db148857" />
 
-## Codigo
-### Inclusión de librerías y definición de variables
+#### Codigo
+#### Inclusión de librerías y definición de variables
 <img width="681" height="148" alt="image" src="https://github.com/user-attachments/assets/f93ec6b9-0c25-4db3-9002-3640a695eb73" />
 
-### Bloque de configuración
+#### Bloque de configuración
 <img width="626" height="222" alt="image" src="https://github.com/user-attachments/assets/e8e2231a-a48b-433e-a68b-421be3fbddb9" />
 
-### Bloque de lógica
+#### Bloque de lógica
 <img width="621" height="470" alt="image" src="https://github.com/user-attachments/assets/7562b1da-51d6-4141-a04e-ee5be2187567" />
 
-### imágenes de laboratorio
+#### imágenes de laboratorio
 <img width="357" height="473" alt="image" src="https://github.com/user-attachments/assets/15b93594-c4a6-49ce-b6ab-3c2d099ed35a" />
 <img width="355" height="475" alt="image" src="https://github.com/user-attachments/assets/c962e418-fe17-4e15-932c-e585e8c68b06" />
 
