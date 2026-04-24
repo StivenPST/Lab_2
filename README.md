@@ -1,4 +1,8 @@
 # 🧪 Laboratorio N° 2 🧪
+## Autores
+* **Nombres:** Edwin Stiven Pasto Arévalo / Julian Felipe Romero Bocanegra / Yessika Vanessa Casas Casas
+* **Carrera:** Ingeniería de Sistemas
+* **Docente:** Diego Alejandro Barragan Vargas
 
 ## ► Primer Punto ◄
 ### Objetivo
