@@ -6,11 +6,11 @@
 ## Montaje del hardware
 <img width="454" height="456" alt="image" src="https://github.com/user-attachments/assets/97651f0e-302f-4b92-b6e6-ed82db148857" />
 ## Codigo
-#### Inclusión de librerías y definición de variables
+### Inclusión de librerías y definición de variables
 <img width="681" height="148" alt="image" src="https://github.com/user-attachments/assets/f93ec6b9-0c25-4db3-9002-3640a695eb73" />
 #### Bloque de configuración
 <img width="626" height="222" alt="image" src="https://github.com/user-attachments/assets/e8e2231a-a48b-433e-a68b-421be3fbddb9" />
-#### Bloque de lógica
+### Bloque de lógica
 <img width="621" height="470" alt="image" src="https://github.com/user-attachments/assets/7562b1da-51d6-4141-a04e-ee5be2187567" />
 ## imágenes de laboratorio
 <img width="357" height="473" alt="image" src="https://github.com/user-attachments/assets/15b93594-c4a6-49ce-b6ab-3c2d099ed35a" />
