@@ -3,7 +3,6 @@
 ## ► Primer Punto ◄
 ## Objetivo
 ## Materiales Necesarios
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/8668f7ed-6489-47ca-bd74-ab85ff759143" />
 ## Montaje del hardware
 <img width="454" height="456" alt="image" src="https://github.com/user-attachments/assets/97651f0e-302f-4b92-b6e6-ed82db148857" />
 ## Codigo
