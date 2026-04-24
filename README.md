@@ -6,9 +6,6 @@
 ## Materiales Necesarios
 <img width="921" height="490" alt="image" src="https://github.com/user-attachments/assets/8bc995d0-4707-4b26-b92e-10723cc38078" />
 
-## Montaje del hardware
-<img width="454" height="456" alt="image" src="https://github.com/user-attachments/assets/97651f0e-302f-4b92-b6e6-ed82db148857" />
-
 ### ♦ Codigo ChatBot
 ### Concideraciones Previas
 Este chatbot usa la API de Gemini. Para ejecutarlo se necesita una clave propia:
@@ -44,6 +41,9 @@ El ChatBot interactua con el Arduino segun las ordenes que envie el usuario:
 
 ### Interfaz Del ChatBot
 Se ejecuta el ChatBot para que interactue con el usuario. Se reciben las preguntas del usuario, se procesan a traves de la funcion `preguntar_gemini` mientras que procesa los comandos predefinidos con la funcion `controlar_arduino`.
+
+## Montaje del hardware
+<img width="454" height="456" alt="image" src="https://github.com/user-attachments/assets/97651f0e-302f-4b92-b6e6-ed82db148857" />
 
 ## Codigo
 ### Inclusión de librerías y definición de variables
